@@ -1,13 +1,13 @@
 # SQL_Retail_Sales
 **(Q1) Write a sql query to retrieve all columns for sales mode on '2022-11-05**
-'''sql
+"""sql
 SELECT 
     *
 FROM
     retail_sales
 WHERE
     sale_date = '2022-11-05';
-'''
+"""
     
 **(Q2) write a sql query to retrieve all transactions where the category is 'clothing' and the quantity sold is more than 10 in the, month of november**
 SELECT 
